@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 //#define TEMPERATURE
@@ -14,47 +14,47 @@ void main()
 #ifdef TEMPERAURE
 
 	int t;
-	cout << "Ââåäèòå òåìïåðàòóðó âîçäóõà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñƒ Ð²Ð¾Ð·Ð´ÑƒÑ…Ð°: ";
 	cin >> t;
 	if (t > 0)
 	{
-		cout << "Íà óëèöå òåïëî" << endl;
+		cout << "ÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ‚ÐµÐ¿Ð»Ð¾" << endl;
 	}
 	else
 	{
-		cout << "Íà óëèöå õîëîäíî" << endl;
+		cout << "ÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ…Ð¾Ð»Ð¾Ð´Ð½Ð¾" << endl;
 	}
 
 #endif
 
 #ifdef EXAMPLE_1
 	int t;
-	cout << "Ââåäèòå ÷èñëî ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ ";
 	cin >> t;
 	if (t > 0 && t < 10)
 	{
-		cout << "Âû ïîïàëè" << endl;
+		cout << "Ð’Ñ‹ Ð¿Ð¾Ð¿Ð°Ð»Ð¸" << endl;
 
 	}
 	else
 	{
-		cout << "Âû ïðîìàõíóëèñü" << endl;
+		cout << "Ð’Ñ‹ Ð¿Ñ€Ð¾Ð¼Ð°Ñ…Ð½ÑƒÐ»Ð¸ÑÑŒ" << endl;
 
 	}
 #endif
 
 #ifdef CALCULATOR
-	cout << "\t\t\t\Êàëüêóëÿòîð" << endl << endl;
+	cout << "\t\t\t\ÐšÐ°Ð»ÑŒÐºÑƒÐ»ÑÑ‚Ð¾Ñ€" << endl << endl;
 	float number_1;
 	float number_2;
 	char symbol;
-	cout << "Ââåäèòå ïåðâîå ÷èñëî:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:";
 	cin >> number_1;
-	cout << "Ââåäèòå îïåðàòîð:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€:";
 	cin >> symbol;
-	cout << "Ââåäèòå âòîðîå ÷èñëî:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:";
 	cin >> number_2;
-	cout << "Ðåçóëüòàò âû÷èñëåíèÿ: ";
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ: ";
 	if (symbol == '+' )
 	{
 		cout << number_1 + number_2;
@@ -80,13 +80,13 @@ void main()
 		
 #ifdef CALCULATOR_2
 
-	cout << "\t\t\t\Êàëüêóëÿòîð" << endl << endl;
+	cout << "\t\t\t\ÐšÐ°Ð»ÑŒÐºÑƒÐ»ÑÑ‚Ð¾Ñ€" << endl << endl;
 	float number_1;
 	float number_2;
 	char symbol;
-	cout << "Ââåäèòå âûðàæåíèå:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ:";
 	cin >> number_1 >> symbol >> number_2;
-	cout << "Ðåçóëüòàò âû÷èñëåíèÿ: ";
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ: ";
 	if (symbol == '+')
 	{
 		cout << number_1 + number_2;
@@ -114,13 +114,13 @@ void main()
 #ifdef CALC_SW
 
 	
-	cout << "\t\t\t\Êàëüêóëÿòîð" << endl << endl;
+	cout << "\t\t\t\ÐšÐ°Ð»ÑŒÐºÑƒÐ»ÑÑ‚Ð¾Ñ€" << endl << endl;
 	float number_1;
 	float number_2;
 	char symbol;
-	cout << "Ââåäèòå âûðàæåíèå:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ:";
 	cin >> number_1 >> symbol >> number_2;
-	cout << "Ðåçóëüòàò âû÷èñëåíèÿ: ";
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ: ";
 	switch (symbol)
 	{
 	case '+':cout << number_1 + number_2 << endl; break;
